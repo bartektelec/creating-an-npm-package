@@ -1,0 +1,28 @@
+{
+  "name": "silly-input-bartek",
+  "version": "0.0.1",
+  "description": "function that does some weird stuff to input fields",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartektelec/creating-an-npm-package.git"
+  },
+  "keywords": [
+    "javascript",
+    "input"
+  ],
+  "author": "bartektelec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartektelec/creating-an-npm-package/issues"
+  },
+  "homepage": "https://github.com/bartektelec/creating-an-npm-package#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
