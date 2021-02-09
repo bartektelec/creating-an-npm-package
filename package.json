@@ -4,6 +4,7 @@
   "description": "function that does some weird stuff to input fields",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
